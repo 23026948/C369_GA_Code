@@ -114,7 +114,9 @@ header nav ul li a {
 }
 
 .modal-dialog-centered {
-    margin-left: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-content {
@@ -132,11 +134,16 @@ header nav ul li a {
     margin-top: 10px;
 }
 
+.btn-login2container {
+    display: flex;
+    justify-content: center;
+}
+
 .btn-login2 {
     display: inline-block;
     background-color: #a60352;
     color: white;
-    margin-left: 40%;
+    text-align: center;
     padding: 7px 20px;
     font-size: 16px;
     border: none;
@@ -148,7 +155,7 @@ header nav ul li a {
 
 .mt-2 {
     margin-top: 15px;
-    margin-left: 10%;
+    text-align: center;
 }
 
 .login-register {
@@ -159,6 +166,7 @@ header nav ul li a {
 
 /*Register.html*/
 .registration {
+    align-items: center;
     text-align: center;
     padding: 2rem 0;
 }
@@ -181,18 +189,24 @@ header nav ul li a {
     align-items: center;
 }
 
+.col-md-6 {
+    align-items: center;
+}
+
 .registration h4 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
 .form-group {
-    margin-left: 17.5%;
+    align-items: center;
+    text-align: center;
     margin-bottom: 1.5rem;
-    width: 65%;
+    padding: 0px 40px;
 }
 
 .form-group label {
+    text-align: center;
     display: block;
     font-size: 1rem;
     margin-bottom: 0.5rem;
@@ -207,7 +221,7 @@ header nav ul li a {
 }
 
 .d-flex {
-    margin-left: 19.25%;
+    justify-content: center;
     font-size: larger;
 }
 
