@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wallet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="Wallet.js"></script>
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <h1>SecureFinance</a></h1>
+                <h1>SecureFinance</h1>
             </div>
             <nav>
                 <ul>
-                    <li>About Us</li>
-                    <li><a href="Homepage.html">Logout</a></li>
+                    <li><a href="Homepage.html" class="logout">Logout</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"></div>
+                <div class="modal-body"><h6>Are you sure you want to log out?</h6></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-logoutcancel" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-logout" id="confirmLogout">Logout</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
