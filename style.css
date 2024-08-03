@@ -5,12 +5,18 @@ body {
     color: #fff;
 }
 
-.logo a {
+.logo h1 {
     text-decoration: none;
-    color: white;
     display: inline-block;
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    letter-spacing: 1px; /* Adjust spacing between letters */
+    background: linear-gradient(90deg, #a60352, #f60389, #a60352, #f60389, #a60352, #f60389, #a60352); /* Gradient color */
+    -webkit-background-clip: text;
+    color: transparent; /* Apply gradient to text */
+    font-weight: 600; /* Adjust weight for boldness */
+    padding: 10px 20px; /* Add padding for spacing */
 }
 
 .container {
@@ -62,7 +68,7 @@ header nav ul li a {
 }
 
 
-/*Homepage.html*/
+/*index.html*/
 .home {
     padding: 60px 0;
     display: flex;
