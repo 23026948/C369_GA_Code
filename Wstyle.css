@@ -1,0 +1,96 @@
+h2 {
+    margin-bottom: 15px;
+}
+
+.transactions,
+.account-balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.balance {
+    background-color: #1b0447;
+    border-radius: 8px;
+    border: 1px solid #412b67;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+}
+
+.balance-amount {
+    font-size: 2rem;
+    /* Larger font size for the amount */
+    font-weight: bold;
+    /* Bold font for emphasis */
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: center;
+}
+
+.dollars {
+    margin-right: 0;
+}
+
+.cents {
+    margin-left: 0%;
+}
+
+.currency-symbol,
+.cents {
+    font-size: 1.2rem;
+    /* Slightly smaller font size for the currency symbol */
+}
+
+.currency-symbol {
+    margin-left: 8px;
+}
+
+.table-striped {
+    width: 90%;
+    border: 1px solid #412b67;
+}
+
+.table thead th {
+    background-color: #0d0221;
+    color: white;
+    padding: 10px;
+}
+
+.table tbody {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.table-striped tbody td {
+    background-color: #1b0447;
+    color: #fff;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 30%;
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 40%;
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    width: 30%;
+}
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.9rem;
+    }
+}
