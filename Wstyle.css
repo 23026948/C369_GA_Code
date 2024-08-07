@@ -26,9 +26,7 @@ h2 {
 
 .balance-amount {
     font-size: 2rem;
-    /* Larger font size for the amount */
     font-weight: bold;
-    /* Bold font for emphasis */
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -87,10 +85,4 @@ h2 {
 .table th:nth-child(3),
 .table td:nth-child(3) {
     width: 30%;
-}
-
-@media (max-width: 768px) {
-    .table {
-        font-size: 0.9rem;
-    }
 }
